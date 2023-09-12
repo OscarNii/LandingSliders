@@ -7,9 +7,12 @@ body {
 	position: absolute;
 	left: 50%;
 	top: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 	transform: translate(-50%, -50%);
-	width: 1000px;
-	height: 600px;
+	width: 100%;
+	height: 100%;
 	padding: 50px;
 	background-color: black;
 	box-shadow: 0 30px 50px black;
@@ -98,9 +101,9 @@ body {
 	opacity: 0;
 	animation: showcontent 1s ease-in-out 0.8s 1 forwards;
 }
-.item button:hover{
-    background-color: red;
-    transition: 0.5s;
+.item button:hover {
+	background-color: red;
+	transition: 0.5s;
 }
 
 @keyframes showcontent {
@@ -118,7 +121,7 @@ body {
 
 .buttons {
 	position: absolute;
-	bottom: 30px;
+	bottom: 70px;
 	z-index: 222222;
 	text-align: center;
 	width: 100%;
