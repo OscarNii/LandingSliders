@@ -125,5 +125,10 @@ body {
 .buttons button{
     width: 50px;
     height: 50px;
-    
+    border-radius: 50%;
+    border: 1px solid #555;
+    transition: 0.5s;
+
+}.buttons button:hover{
+    background-color: red;
 }
