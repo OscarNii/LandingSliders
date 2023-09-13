@@ -5,16 +5,7 @@ body {
 	height: 100%;
 }
 
-header {
-    padding: 25px 10%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
+
 .container {
 	position: absolute;
 	left: 50%;
